@@ -1,15 +1,4 @@
-﻿/// <reference path="jquery.min.js" />
-//Written by Eran Bodokh
-// Options
-// bool timeStamp
-// string customTimeStamp
-// Action[] actions {name,mdIcon,link}
-// string footer
-// string header
-// string subheader
-// string body
-// string imgUrl
-// string position [top,bottom,left,right,top-right,top-left,bottom-left,bottom-right]
+﻿//Written by Eran Bodokh
 
 ; (function ($, window, document, undefined) {
 
