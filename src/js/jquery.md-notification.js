@@ -1,4 +1,15 @@
-﻿//Written by Eran Bodokh
+﻿/// <reference path="jquery.min.js" />
+//Written by Eran Bodokh
+// Options
+// bool timeStamp
+// string customTimeStamp
+// Action[] actions {name,mdIcon,link}
+// string footer
+// string header
+// string subheader
+// string body
+// string imgUrl
+// string position [top,bottom,left,right,top-right,top-left,bottom-left,bottom-right]
 
 ; (function ($, window, document, undefined) {
 
@@ -104,7 +115,6 @@
                 imgUrl: null,
                 footer: null,
                 customTimeStamp: null,
-                show: false,
                 position: "top",
                 timeOut: 5000,
                 dismiss: false,
@@ -122,9 +132,7 @@
                     var html = GenereateNotificationHTML(settings);
                     item = $(html).appendTo("body");
                     //Animate element In
-                    if (settings.show) {
-                        ShowNotification(item);
-                    }
+                    ShowNotification(item);
                     //Animate ElementOut
                     CloseNotification(item, settings.timeOut);
                 });
