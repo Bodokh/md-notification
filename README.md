@@ -6,4 +6,4 @@ Easy to set up and even easier to use!
 
 ## Documentation and API
 
-[Documentation can be found here](https://bodokh.github.io/md-notification_docs) 
+[Documentation can be found here](https://bodokh.github.io/md-notification) 
